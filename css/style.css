@@ -1,0 +1,89 @@
+body{
+background-color: #222;
+color: #fff;
+}
+
+
+nav{
+	background-color: #000;
+
+}
+
+nav a{
+	color: #fff;
+}
+
+nav a:hover{
+	color: #fff;
+	font-weight: bold;
+}
+
+nav a:hover{
+	text-decoration: none;
+}
+
+#menu_button:hover{
+	cursor: pointer;
+}
+
+#menu_button img{
+	width: 3%;
+}
+.py-2{
+	max-height: 3em;
+	display: contents;
+}
+
+.py-2 img{
+	max-height: inherit;
+}
+
+h3{
+	text-align: center;
+	position: relative;
+	background-color: #222;
+	padding: 1.7em 0;
+	font-weight: bold;
+}
+
+.modal_dialo_gpay{
+	position: fixed;
+	top: 15%;
+	right: 30%;
+}
+
+.modal-title{
+	color: #222;
+}
+
+.wrap_main_rec{
+    font-size: 1.5em;
+}
+
+.up_btn{
+	display: none;
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+}
+
+.show{
+	display: inline-block !important;
+}
+
+.social_net_share{
+position: fixed;
+transform: rotate(90deg);
+top: 50%;
+right: 0;
+}
+
+.social_net_share a{
+transform: rotate(-90deg);
+margin 15px;}
+
+#menu_button{
+	display: flex;
+	width: inherit;
+	justify-content: center;
+}
